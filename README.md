@@ -1,157 +1,31 @@
-# read-package-json
+# (ดู-หนัง) Khun Pan 3 (ขุนพันธ์ 3-2023) เต็มเรื่อง HD/พากย์ไทย 1080p
 
-This is the thing that npm uses to read package.json files.  It
-validates some stuff, and loads some default things.
+ขุนพันธ์ 3 2023 เต็มเรื่อง (HD) พากย์ไทย ออนไลน์ฟรี -1080THAI หนัง Khun Pan 3 ขุนพันธ์ 3 2023 พากย์ไทย เต็มเรื่อง (THAI.SUB ),Khun Pan 3 -ขุนพันธ์ 3" 2023 ดูหนังเต็มเรื่อง [TV-THAI] พากย์ไท 1080p,[ดูหนัง-HD]-Khun Pan 3 -ขุนพันธ์ 3" 2023 ดูหนังเต็มเรื่อง [THAI] พากย์ไท,ดูหนัง! Khun Pan 3 (ขุนพันธ์ 3 2023) ออนไลน์ฟรี HD พากย์ไทย (SUB-THAI),[ดูหนัง] [Khun Pan 3] หนังออนไลน์ฟรี เต็มเรื่อง HD พากย์ไทย,[ดู.หนัง] Khun Pan 3 2023 (ขุนพันธ์ 3 ) เต็มเรื่อง HD พากย์ไทย
 
-It keeps a cache of the files you've read, so that you don't end
-up reading the same package.json file multiple times.
 
-Note that if you just want to see what's literally in the package.json
-file, you can usually do `var data = require('some-module/package.json')`.
 
-This module is basically only needed by npm, but it's handy to see what
-npm will see when it looks at your package.
+▶ รับชมเต็มเรื่อง ➥➾ [หนัง Khun Pan 3 ขุนพันธ์ 3 2023 พากย์ไทย เต็มเรื่อง HD'4K](https://play.flixmax.stream/th/movie/938553/3)
 
-## Usage
 
-```javascript
-var readJson = require('read-package-json')
 
-// readJson(filename, [logFunction=noop], [strict=false], cb)
-readJson('/path/to/package.json', console.error, false, function (er, data) {
-  if (er) {
-    console.error("There was an error reading the file")
-    return
-  }
+ประเภท: บู๊
 
-  console.error('the package data is', data)
-});
-```
 
-## readJson(file, [logFn = noop], [strict = false], cb)
 
-* `file` {String} The path to the package.json file
-* `logFn` {Function} Function to handle logging.  Defaults to a noop.
-* `strict` {Boolean} True to enforce SemVer 2.0 version strings, and
-  other strict requirements.
-* `cb` {Function} Gets called with `(er, data)`, as is The Node Way.
+ดาว: Ananda Everingham, Mario Maurer, Chalad Na Songkhla, Phakin Khamwilaisak, Sarika Sathsilpsupa
 
-Reads the JSON file and does the things.
 
-## `package.json` Fields
 
-See `man 5 package.json` or `npm help json`.
+ผู้กำกับ: Somsak Techaratanaprasert, Kongkiat Khomsiri, Kongkiat Khomsiri, Kongkiat Khomsiri, Nirachara Wannalai
 
-## readJson.log
 
-By default this is a reference to the `npmlog` module.  But if that
-module can't be found, then it'll be set to just a dummy thing that does
-nothing.
 
-Replace with your own `{log,warn,error}` object for fun loggy time.
+พ.ศ. 2493 บ้านเมืองยังคงได้รับผลกระทบจากสงคราม ข้าวยากหมากแพง ชุมโจรเสือร้ายยังคงชุกชุมไปทั่วทุกหนแห่ง ข้าราชการเต็มไปด้วยความฉ้อฉล ใช้อำนาจในทางที่ผิด จะเหลือก็เพียง “ขุนพันธรักษ์ราชเดช” (อนันดา เอเวอริงแฮม) นายตำรวจมือปราบผู้ยึดมั่นในความถูกต้อง และเป็นความหวังเดียวของผู้คน
 
-## readJson.extras(file, data, cb)
 
-Run all the extra stuff relative to the file, with the parsed data.
 
-Modifies the data as it does stuff.  Calls the cb when it's done.
+เป็นเรื่องราวที่สร้างขึ้นมาจากชีวิตจริงของ ขุนพันธรักษ์ราชเดช ” บุตร พันธรักษ์ ” จะเกิดอะไรขึ้นเมื่อ ” ความอยู่ยงคงกระพัน กำลังถูกท้าท้าย ” ระหว่างที่บ้านเมืองกำลังจะเดินหน้าสู่ความสงบสุข หลังจากยุคสงครามโลกครั้งที่ 2 กลับถูกก่อกวนโดยซุ้มเสือต่าง ๆที่ตั้งซุ้มตั้งเผ่ากันขึ้นมาในภาคกลาง เมื่อเรื่องนี้โด่งดังจนไปเข้าหู ขุนพันธรักษ์ราชเดช ท่านจึงอยู่เฉยไม่ได้พร้อมทั้งได้เดินทางมายังภาคกลางเพื่อที่จะกำราบซุ่มเสือต่าง ๆที่ชาวบ้านต่างล่ำลือกันว่าซุ้มเสือกลุ่มนี้หนักเหนียวฟันแทงไม่เข้า ” ภารกิจครั้งใหม่และครั้งสุดท้ายของ ขุนพันธรักษ์ราชเดช มือปราบดาบแดง กับการจับตาย ” รับชมได้เร็ว ๆนี้
 
-## readJson.extraSet = [fn, fn, ...]
 
-Array of functions that are called by `extras`.  Each one receives the
-arguments `fn(file, data, cb)` and is expected to call `cb(er, data)`
-when done or when an error occurs.
 
-Order is indeterminate, so each function should be completely
-independent.
-
-Mix and match!
-
-## Other Relevant Files Besides `package.json`
-
-Some other files have an effect on the resulting data object, in the
-following ways:
-
-### `README?(.*)`
-
-If there is a `README` or `README.*` file present, then npm will attach
-a `readme` field to the data with the contents of this file.
-
-Owing to the fact that roughly 100% of existing node modules have
-Markdown README files, it will generally be assumed to be Markdown,
-regardless of the extension.  Please plan accordingly.
-
-### `server.js`
-
-If there is a `server.js` file, and there is not already a
-`scripts.start` field, then `scripts.start` will be set to `node
-server.js`.
-
-### `AUTHORS`
-
-If there is not already a `contributors` field, then the `contributors`
-field will be set to the contents of the `AUTHORS` file, split by lines,
-and parsed.
-
-### `bindings.gyp`
-
-If a bindings.gyp file exists, and there is not already a
-`scripts.install` field, then the `scripts.install` field will be set to
-`node-gyp rebuild`.
-
-### `index.js`
-
-If the json file does not exist, but there is a `index.js` file
-present instead, and that file has a package comment, then it will try
-to parse the package comment, and use that as the data instead.
-
-A package comment looks like this:
-
-```javascript
-/**package
- * { "name": "my-bare-module"
- * , "version": "1.2.3"
- * , "description": "etc...." }
- **/
-
-// or...
-
-/**package
-{ "name": "my-bare-module"
-, "version": "1.2.3"
-, "description": "etc...." }
-**/
-```
-
-The important thing is that it starts with `/**package`, and ends with
-`**/`.  If the package.json file exists, then the index.js is not
-parsed.
-
-### `{directories.man}/*.[0-9]`
-
-If there is not already a `man` field defined as an array of files or a
-single file, and
-there is a `directories.man` field defined, then that directory will
-be searched for manpages.
-
-Any valid manpages found in that directory will be assigned to the `man`
-array, and installed in the appropriate man directory at package install
-time, when installed globally on a Unix system.
-
-### `{directories.bin}/*`
-
-If there is not already a `bin` field defined as a string filename or a
-hash of `<name> : <filename>` pairs, then the `directories.bin`
-directory will be searched and all the files within it will be linked as
-executables at install time.
-
-When installing locally, npm links bins into `node_modules/.bin`, which
-is in the `PATH` environ when npm runs scripts.  When
-installing globally, they are linked into `{prefix}/bin`, which is
-presumably in the `PATH` environment variable.
-
-### `types` field
-
-If you do not have a `types` field, then it will check if a
-corresponding `*.d.ts` file exists for your package entry file and add
-it to the `package.json`.
+ขุนพันธ์ 3 (อังกฤษ: Khun Pan 3) เป็นภาพยนตร์ไทยแนวแอคชั่นจากค่ายสหมงคลฟิล์ม อินเตอร์เนชั่นแนล ภาคต่อของ ขุนพันธ์ ที่ออกฉายในปี พ.ศ. 2559 และ ขุนพันธ์ 2 ที่ออกฉายในปี พ.ศ. 2561 จากการกำกับของก้องเกียรติ โขมศิริ นำแสดงโดยอนันดา เอเวอริ่งแฮม มาริโอ้ เมาเร่อ และภาคิน คำวิลัยศักดิ์ ออกฉายครั้งแรกในวันที่ 1 มีนาคม พ.ศ. 2566[1]
